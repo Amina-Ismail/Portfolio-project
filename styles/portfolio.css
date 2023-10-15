@@ -63,6 +63,9 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.img-adjust {
+  padding-top: 120px;
+}
 
 @media (max-width: 900px) {
   h1 {
