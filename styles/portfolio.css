@@ -1,6 +1,8 @@
 :root {
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
+  --default-background: rgb(255, 153, 255, 0.2);
+  --paragraph-text: rgb(131, 47, 131);
 }
 body {
   font-family: var(--default-font);
@@ -15,13 +17,12 @@ h2 {
 p {
   line-height: 30px;
   font-size: 16px;
-  color: #272142;
-  opacity: 70%;
+  color: rgb(131, 47, 131, 0.6);
 }
 .hero {
   text-align: center;
   font-family: var(--default-font);
-  background-color: #f9f7fe;
+  background-color: var(--default-background);
   padding: 120px 20px;
   margin-bottom: 40px;
 }
@@ -29,7 +30,8 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: var(--paragraph-text);
+  opacity: none;
 }
 .hero h1 {
   font-size: 96px;
@@ -39,30 +41,33 @@ p {
 .hero h2 {
   font-size: 24px;
   font-weight: normal;
-  color: #272142;
+  color: var(--paragraph-text);
   line-height: 1.5;
   font-family: var(--heading-font);
 }
 .primary-button {
   color: white;
+  background-color: rgb(255, 153, 255) !important;
+  border: none;
   border-radius: 4px;
-  font-size: 18px;
-  padding: 15px 30px;
-  font-weight: normal;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px 60px;
+
   line-height: 27px;
 }
 .btn-learn {
-  color: #6c63ff;
+  color: var(--paragraph-text);
   border-radius: 4px;
-  border: 1px solid #6c63ff;
+  border: 1px solid var(--paragraph-text);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
 }
 .project-description {
-  padding: 60px 60px;
-  background-color: #f9f7fe;
+  padding: 120px 60px;
+  background-color: var(--default-background);
   margin-top: 121px;
 }
 .img-adjust {
@@ -71,14 +76,14 @@ p {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 30px;
     line-height: 2;
   }
   h2 {
     font-size: 44px;
   }
   .project-description {
-    padding: 0;
+    padding: 60px 20px;
     text-align: center;
   }
   .hero {
