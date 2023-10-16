@@ -113,4 +113,8 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  .hero-about {
+    text-align: center;
+    padding: 0;
+  }
 }
