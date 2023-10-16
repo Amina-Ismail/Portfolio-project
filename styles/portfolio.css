@@ -45,6 +45,30 @@ p {
   line-height: 1.5;
   font-family: var(--heading-font);
 }
+
+.hero-about h1 {
+  font-size: 64px;
+  line-height: 70px;
+  font-family: var(--heading-font);
+}
+.hero-about h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+  color: var(--paragraph-text);
+}
+.hero-about p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+  font-family: var(--default-font);
+}
+
+.image-port {
+  border-radius: 4px;
+  padding: 60px 30px;
+  background-color: var(--default-background);
+}
+
 .primary-button {
   color: white;
   background-color: rgb(255, 153, 255) !important;
