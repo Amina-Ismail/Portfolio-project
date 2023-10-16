@@ -61,7 +61,9 @@ p {
   text-decoration: none;
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 60px 60px;
+  background-color: #f9f7fe;
+  margin-top: 121px;
 }
 .img-adjust {
   padding-top: 120px;
