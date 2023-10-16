@@ -22,6 +22,42 @@ p {
   font-size: 16px;
   color: rgb(131, 47, 131, 0.6);
 }
+
+nav {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+  font-size: 16px;
+}
+nav a {
+  color: var(--paragraph-text);
+
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav li.active a {
+  color: rgb(131, 47, 131, 0.6);
+}
+nav a:hover {
+  background-color: var(--default-background);
+  padding: 1px 1px;
+  color: var(--paragraph-text);
+}
+.name {
+  font-size: 28px;
+  font-family: var(--heading-font);
+  color: var(--paragraph-text);
+  margin: 0;
+}
 .hero {
   text-align: center;
   font-family: var(--default-font);
@@ -109,7 +145,30 @@ p {
 .content-container h1 {
   font-size: 64px;
 }
+.contact-page {
+  text-align: center;
+}
+.contact-page h1 {
+  font-size: 64px;
+}
+.contact-page h3 {
+  font-size: 36px;
 
+  font-family: var(--default-font);
+}
+.contact-page p {
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+.contact-page a {
+  color: var(--paragraph-text);
+  text-decoration: none;
+}
+.contact-body {
+  text-align: center;
+  background-color: var(--default-background);
+  padding: 60px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 30px;
