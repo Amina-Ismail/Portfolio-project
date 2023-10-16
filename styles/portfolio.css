@@ -7,6 +7,9 @@
 body {
   font-family: var(--default-font);
 }
+h1 {
+  font-family: var(--heading-font);
+}
 
 h2 {
   font-family: var(--heading-font);
@@ -65,7 +68,7 @@ p {
 
 .image-port {
   border-radius: 6px;
-  padding: 60px 30px;
+  padding: 50px 30px;
   background-color: var(--default-background);
 }
 
@@ -96,6 +99,15 @@ p {
 }
 .img-adjust {
   padding-top: 120px;
+}
+.content-container {
+  text-align: center;
+}
+.content-container h3 {
+  font-size: 24px;
+}
+.content-container h1 {
+  font-size: 64px;
 }
 
 @media (max-width: 900px) {
