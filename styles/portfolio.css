@@ -52,6 +52,47 @@ nav a:hover {
   padding: 1px 1px;
   color: var(--paragraph-text);
 }
+
+footer {
+  margin: 60px auto;
+  text-align: center;
+}
+footer .contact-box {
+  background-color: var(--default-background);
+  padding: 30px 120px;
+}
+footer .contact-box h4 {
+  font-family: var(--heading-font);
+  font-size: 48px;
+}
+footer .contact-box p {
+  font-size: 18px;
+  text-align: left;
+}
+
+footer .email-link {
+  color: var(--paragraph-text);
+  text-decoration: none;
+  font-size: 24px;
+}
+footer .social-links a {
+  margin: 10px 20px;
+  color: var(--paragraph-text);
+  background-color: var(--default-background);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--paragraph-text);
+}
+
+footer .email-link:hover {
+  background-color: var(--default-background);
+}
+
 .name {
   font-size: 28px;
   font-family: var(--heading-font);
@@ -108,17 +149,19 @@ nav a:hover {
   background-color: var(--default-background);
 }
 
-.primary-button {
-  color: white;
-  background-color: rgb(255, 153, 255) !important;
-  border: none;
-  border-radius: 4px;
-  font-size: 24px;
-  font-weight: bold;
-  padding: 15px 60px;
-
-  line-height: 27px;
+.see-more {
+  border: 1px solid var(--paragraph-text);
+  background-color: var(--default-background);
+  color: var(--paragraph-text);
+  font-size: 18px;
+  padding: 6px 12px;
 }
+.see-more:hover {
+  color: white;
+  background-color: var(--paragraph-text);
+  padding: 6px 12px;
+}
+
 .btn-learn {
   color: var(--paragraph-text);
   border-radius: 4px;
@@ -127,6 +170,10 @@ nav a:hover {
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+}
+.btn-learn:hover {
+  color: white;
+  background-color: var(--paragraph-text);
 }
 .project-description {
   padding: 120px 60px;
@@ -166,7 +213,7 @@ nav a:hover {
 }
 .contact-body {
   text-align: center;
-  background-color: var(--default-background);
+
   padding: 60px;
 }
 @media (max-width: 900px) {
@@ -177,6 +224,7 @@ nav a:hover {
   h2 {
     font-size: 44px;
   }
+
   .project-description {
     padding: 60px 20px;
     text-align: center;
