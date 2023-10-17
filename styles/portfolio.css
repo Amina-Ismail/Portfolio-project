@@ -243,4 +243,8 @@ footer .email-link:hover {
     text-align: center;
     padding: 0;
   }
+  .work-page h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
 }
