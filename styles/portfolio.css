@@ -142,6 +142,9 @@ footer .email-link:hover {
   font-weight: normal;
   font-family: var(--default-font);
 }
+.hero-about ul {
+  color: rgb(131, 47, 131, 0.6);
+}
 
 .image-port {
   border-radius: 6px;
@@ -151,7 +154,7 @@ footer .email-link:hover {
 
 .see-more {
   border: 1px solid var(--paragraph-text);
-  background-color: var(--default-background);
+  background-color: white;
   color: var(--paragraph-text);
   font-size: 18px;
   padding: 6px 12px;
@@ -176,7 +179,7 @@ footer .email-link:hover {
   background-color: var(--paragraph-text);
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 60px 60px;
   background-color: var(--default-background);
   margin-top: 121px;
 }
