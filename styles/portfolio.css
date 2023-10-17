@@ -216,6 +216,10 @@ footer .email-link:hover {
 
   padding: 60px;
 }
+.git-link {
+  text-decoration: none;
+  color: var(--paragraph-text);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 30px;
