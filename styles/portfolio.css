@@ -223,6 +223,14 @@ footer .email-link:hover {
   text-decoration: none;
   color: var(--paragraph-text);
 }
+
+.project-link {
+  color: var(--paragraph-text);
+}
+.project-link:hover {
+  color: rgb(131, 47, 131, 0.6);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 30px;
